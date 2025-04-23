@@ -1,13 +1,7 @@
-# replicate.yaml
 name: hi3dgen
-
-input:
-  image:
-    type: file
-    description: "Upload a single reference image"
-
-output:
-  type: file
-  description: "Generated 3D model file (.obj, .ply, or .glb depending on config)"
-
-run: python app.py
+predict: 
+  path: app.py:Predictor
+  inputs:
+    image:
+      type: file
+      description: "Upload a single reference image"
