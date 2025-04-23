@@ -1,7 +1,0 @@
-name: hi3dgen
-predict: 
-  path: app.py:Predictor
-  inputs:
-    image:
-      type: file
-      description: "Upload a single reference image"
