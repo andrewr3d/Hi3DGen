@@ -1,6 +1,5 @@
 # replicate.yaml
 name: hi3dgen
-description: Generate high-fidelity 3D models from a single image using normal bridging.
 
 input:
   image:
