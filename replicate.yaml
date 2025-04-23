@@ -1,0 +1,14 @@
+# replicate.yaml
+name: hi3dgen
+description: Generate high-fidelity 3D models from a single image using normal bridging.
+
+input:
+  image:
+    type: file
+    description: "Upload a single reference image"
+
+output:
+  type: file
+  description: "Generated 3D model file (.obj, .ply, or .glb depending on config)"
+
+run: python app.py
